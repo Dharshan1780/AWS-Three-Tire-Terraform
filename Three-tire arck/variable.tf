@@ -9,4 +9,5 @@ variable "dbpassword" {
 variable "db_name" {
   type = string
 }
-variable "my_ip" {}
+variable "my_ip" {
+}
