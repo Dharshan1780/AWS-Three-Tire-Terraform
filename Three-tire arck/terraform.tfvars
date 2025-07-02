@@ -1,4 +1,4 @@
-my_ip      = "0.0.0.0/0"
+my_ip      = "my ip address"
 db_name    = ""
 dbpassword = ""
 db_user     = ""
