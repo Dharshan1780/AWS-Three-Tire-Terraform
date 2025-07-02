@@ -13,7 +13,7 @@ resource "aws_launch_template" "web_tier_instance" {
 resource "aws_autoscaling_group" "web_tier_asg" {
   name = "web-tier_asg"
   vpc_zone_identifier = var.public_subnets
-  min_size = 2
+  min_size = 1
   max_size = 2
   desired_capacity = 2
   launch_template {
